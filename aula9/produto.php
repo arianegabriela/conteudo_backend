@@ -24,4 +24,6 @@ $produto1 = [
 ];
 
 
-    echo json_encode($produtos);
+    
+echo json_encode($produtos);
+?>
