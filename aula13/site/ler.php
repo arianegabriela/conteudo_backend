@@ -1,7 +1,7 @@
 <?php
-include_once  "../noticia/consultar_por_id.php";
+include_once  "../template/consultar_por_id.php";
 include_once  "../template/cabecalho.php";
-include_once  "../template/menu.php";
+include_once  "../noticia/menu.php";
 ?>
 
 <div  class="container">

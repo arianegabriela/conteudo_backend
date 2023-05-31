@@ -16,5 +16,5 @@ $resultado = $comando->get_result();
 
 //pega todas linhas do resultado da consulta
 $categorias = [];
-while ($noticia = $resultado->fetch_object()){
+while ($categoria = $resultado->fetch_object()){
     $categorias[] = $noticia; }

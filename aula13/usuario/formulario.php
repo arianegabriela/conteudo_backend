@@ -1,6 +1,7 @@
 <?php
     require_once "consultar_por_id.php";
     require_once "../template/cabecalho";
+    require_once "../template/menu_restrtio";
 ?>
 
 
@@ -21,7 +22,7 @@
         <input type="password" name="n3" id="n3" value="<?php echo $usuario->senha ?? "" ;?>"><br>
 
         <label for="">foto</label><br>
-        <input type="file" name="n3" id="n3" value="<?php echo $usuario->senha ?? "" ;?>"><br>
+        <input type="file" name="n4" id="n4" value="<?php echo $usuario->senha ?? "" ;?>"><br>
 
         <button type="submit">Cadastrar</button>
     </form>
